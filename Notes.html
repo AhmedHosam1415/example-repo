@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My notes</title>
+		<style>
+		body { background-color: Bisque;color: Indigo;}
+			h1 {color: Firebrick;font-size: 24pt;}
+			strong {color: DarkMagenta; }
+			em {color: navy;}
+			p {font-size: 14pt; }
+			.Example {color:Red;}
+			li em {color: Crimson; }
+			li {font-size: 14pt;}
+			.important {color:DeepPink;font-weight: bold;font-size: 16pt;font-style: oblique;}
+			.lightup {color: MediumVioletRed;}
+		</style>
+	</head>
+	<body>
+<h1>HTML</h1>
+<ol>
+	<li><p>
+		a <strong><span class="important">Markup</span></strong> is the way to edit the displaying of plain text like make it <strong> Bold </strong> or <em> Italic </em> as <span class="important">emphasis</span>.
+	</p></li>
+
+	<li><p>
+		the angle brakets is called <em><strong> Tags </strong></em> . <br>
+		and the tags with the in between words called <strong> Element </strong> . <br>
+		the difference between <strong> Openening </strong> and <strong> closing </strong> tags is the <strong>"/"</strong>.
+	</p></li>
+	<li><h4> Tags</h4></li>
+		<ol>
+			<li><p>
+				the break line tag used to <strong>add</strong> new line <strong><em>-br-</em></strong>.<br>
+				also it doesn't have any contents so it doesn't have <strong> closing tags </strong>. also called <strong> Void tag </strong>.
+			</p></li>
+			<li><p>
+				the paragraph tag used to <strong>seperate</strong> wriiten lines into paragraphs. <br>
+				it begins and ends with opening and closing tags. <strong><em>-p-</em> and <em>-/p-</em></strong>.
+			</p></li>
+			<li><p>
+				<strong><em>-mark-</em></strong> used to <span class="important">highlight</span> text.<br>
+				<strong><em>-sub- and -sup-</em></strong> used for <strong>subscript and superscript</strong>.<br>
+				as subscript like <strong> H<sub>2</sub>O</strong>.<br>
+				and superscript as <strong>X<sup>2</sup>+2</strong>.
+			</p></li>
+			<li><p>
+				paragraph and other tags called <strong> Block elements </strong>. <br>
+				they have <em> height , width , margins </em>.
+			</p></li>
+			<li><p>
+				emphasis , line break and other elements are called <strong> Inline elements </strong>.
+				they just <em> flow </em> with the other elements.x-fast
+			</P></li>
+			<li><p>
+				<strong>-div-</strong> is used to seperate text into <strong><em>sections</em></strong>.
+			</p></li>
+			<li><p>
+				<strong>-li-</strong> tag used to add element into a <strong> List </strong>.<br>
+				we have two kinds of lists..
+					<ol>
+						<li> <strong>Ordered List as -ol- </strong>. and it shows <span class="important">numbered</span> elements.</li>
+						<li> <strong>Unordered List as -ul- </strong>. and it shows <span class="important">dotted</span> elements.</li>
+					</ol>
+			</li>
+		</ol>
+	<li> Some tags doesn't have to have a <strong> Closing Tag</strong>. Like <em>-p- or -li- </em>. <br>
+	as the browser know that the element <strong> Ends </strong> when a new <em> Opening Tag</em> is found.
+
+	<li><p> we can add a hyperlink to our webpage using <strong>-a-</strong> tag which refers to <em>Anchor</em> followed by <strong> href </strong> which refers to hypertext reference followed by <strong>"="</strong> and quotation marks contains the address and all of this called <span class="important"> Attribute </span> and it's extra data comes along with the element and gives it extra meaning.<br>
+	the <em> href </em> called <strong> Attribute name </strong> and the double quoted text is <strong> Attribute Value</strong>.
+		<ul>
+			<li><p> it must have a <strong>protocol </strong> like Http , Https , File . <strong>for example :</strong> <a href="https://www.google.com/" target="_blank"> Google Search
+			</a>
+		</ul>
+	<li><p> we can add an Image to our webpage using <strong> -img- </strong> <br>
+	it have two kind of attributes
+		<ul>
+			<li> <em> Src </em> refers for <strong> Source </strong> and it's the source of our image.
+			<li> <em> Alt </em> refers to <strong> Altrenative </strong> and it's the description of our image or the name of it.
+			<li> <strong class="Example"> For Example :</strong><br> <img style="padding:1em;width:20%;" src="Asta.jpg" Alt="Asta Image"> <br>
+			as this attribute called <strong> Relative URL</strong> and it refers to a file at local Computer and must be <span class="important">attached</span> with the HTML file.
+			<li> for a <strong> Fully qualifed URL </strong> it should look like
+			<a href="https://omnitos.com/black-clover-chapter-283-release-date-asta-and-liebe-vs-spade-kingdom/" target="_blank"> Asta Full Demon Uninon<br> <img style="margin:1em;padding:1em;width:75%;" src="https://i0.wp.com/omnitos.com/wp-content/uploads/2021/02/EuC82LXWgAApial.jpg" Alt="Asta"> </a>
+
+		</ul>
+	<li> we need to specify the type of our HTML file using <strong>Doctype tag</strong> with <em>-header- and -body- tags</em>.
+	<li> header contains <strong> -title- tag </strong> to identify the title of our webpage and other meta data.
+	<li> the body contains our HTML code.
+</ol>
+<h1> CSS </h1>
+<ol>
+	<li> the difference between the <em>HTML Source Code </em> and <em>what we see on Screen</em> is the <strong> Data Structure </strong>.
+	<li><strong> Tree Diagram </strong> Shows which elements are <em> nested </em> into each other , and looks like a <strong> Map </strong> for how the webpage will look like.
+	<li> Tree structure consists of some elements called <strong><em> Nodes </em> </strong> and connections between them called <strong><em> Branches </em></strong>. Every tree has a <strong> Root </strong> and the root of the HTML Page is the <em> HTML element</em>.
+	<li><strong> Rules for Tree Structures : </strong>
+		<ol>
+			<li> A Tree has a <strong>Root</strong> Node.
+			<li>Each Node can have Branches that lead to other nodes(its <strong> Children</strong>).
+			<li> Each Node has only one <strong> Parent </strong> (Except the root).
+		</ol>
+	<li> <strong> CSS </strong> Syntax Ruleset:
+		<ol>
+			<li> <strong> Selector: </strong> <em>which</em> element will the ruleset <em>apply to</em> ?
+			<li> <strong> Decleration Block </strong> how will the ruleset <em>Modify</em> these elements ?
+			<li> in decleration block : <span class="important" style="color:ForestGreen;">"color : green;"</span> <em>color</em> is the <strong> property </strong> and <em style="color:green;">green</em> is the <strong> value </strong>.
+		</ol>
+	<li> a <strong> Class </strong> is a group of things with the same characteristics.
+	<li> to make a class just <strong> get it a name </strong> and start using it. For <strong class="Example"> Example : </strong> "-p class="introduction"-". Also called in <em> style </em> using a Dot (.) like ".introduction".
+	<li> a <strong> Class </strong> is used when there're <span class="important">several</span> elements that need the same style.
+	<li> an <strong> ID </strong> is used when there's only <span class="important">one</span> element to apply to. and called in <em> style </em> using "#".
+	<li> the <strong><span style="color:Teal;"> span </span></strong> is inline container used to <strong> Markup </strong> a part of text or a part of a document.
+	<li> the <strong>compining selector </strong> is the compine of two selectors in one style like "li em" as we only choose em in li to apply our characteristics to and called <strong style="color:ForestGreen">"The Descendant selector" </strong>
+	<li> we can <strong> compine </strong> two different classes by seperating between them by a space like <em> class="important done"</em>.
+	<li> The term <strong>"cascading"</strong> in Cascading Style Sheets refers to the way that style properties "cascade" down the DOM tree, starting at the top. A style applied to the body element will affect the entire document. A style applied to a lower-level element will affect that element and all its descendants.
+	<li> there's many sizing options in <strong> CSS </strong> like <em class="lightup"> em </em>and it uses the same font size of the element  or <em class="lightup"> px </em> for Pixel and it's 1/96 inch  and <em class="lightup"> Pt </em>for the font size .
+	<li> we can <em> Layout </em> the blocks by using <em class="lightup"> padding , margin and border </em> also <strong> float </strong> is used to change the position of the block.
+	</body>
+</html>
